@@ -20,7 +20,6 @@ public class StockAccount {
                 System.out.println("Number_Of_Share:" + number_Of_Shares +"  "+ "Share_Price:" +share_Price);
             }
 
-
     public static void main(String[] args) {
                 System.out.println("Welcome to Stock Account Management");
                 Scanner sc=new Scanner(System.in);

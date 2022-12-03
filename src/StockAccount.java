@@ -31,12 +31,14 @@ public class StockAccount {
                 ArrayList<StockAccount> stocks=new ArrayList<>();
                 int choice=5;   //random value
                 String searchName=null;
+                int debit_stocks=0;
                 while (choice != 0) {
                     System.out.println("Select one of the below options");
                     System.out.println(" 0. Exit ");
                     System.out.println(" 1. Add stock ");
-                    System.out.println(" 2.Display single stock ");
-                    System.out.println(" 3.Display all stocks ");
+                    System.out.println(" 2. Debit Account ");
+                    System.out.println(" 3.Display single stock ");
+                    System.out.println(" 4.Display all stocks ");
                     choice = sc.nextInt();
                     sc.nextLine();
                     switch (choice) {
@@ -51,6 +53,23 @@ public class StockAccount {
                             stocks.add(new StockAccount(ip_stockName,ip_Number_Of_Shares,ip_Share_Price));
                             break;
                         case 2:
+                            System.out.println("Enter stock name for which you want to debit");
+                            searchName = sc.nextLine();
+                            System.out.println("Enter the number of stocks you want to debit");
+                            debit_stocks=sc.nextInt();
+                            for (int i = 0; i < stocks.size(); i++) {
+                                if (stocks.get(i).stock_Name.equals(searchName)) {
+                                    int result=stocks.get(i).number_Of_Shares-debit_stocks;
+                                        if(result>=0){
+                                            stocks.get(i).number_Of_Shares=result;
+                                    }else {
+                                            System.out.println("you do not have enough shares to debit");
+                                        }
+                                    break;
+                                }
+                            }
+                            break;
+                        case 3:
                             System.out.println("Enter stock name for which you want to know the total stock value");
                             searchName = sc.nextLine();
                             for (int i = 0; i < stocks.size(); i++) {
@@ -60,7 +79,7 @@ public class StockAccount {
                                 }
                             }
                             break;
-                        case 3:
+                        case 4:
                             int total_stocks_value=0;
                             for(int index=0;index<stocks.size();index++){
                                 total_stocks_value=total_stocks_value+stocks.get(index).stock_value;

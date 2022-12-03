@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+.idea
+.gitignore
+Day11_12java_Practice_Problem.iml
+
+
+

@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class StockAccount {
@@ -21,9 +20,6 @@ public class StockAccount {
                 System.out.println("Number_Of_Share:" + number_Of_Shares +"  "+ "Share_Price:" +share_Price);
             }
 
-    public void all_stocks_display(ArrayList<StockAccount> arr_list) {
-
-    }
 
     public static void main(String[] args) {
                 System.out.println("Welcome to Stock Account Management");

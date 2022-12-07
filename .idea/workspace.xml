@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e8bf96a-bed9-4265-8fe8-48063377e65e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6e8bf96a-bed9-4265-8fe8-48063377e65e" name="Changes" comment="'pb4 commit'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="pb5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -37,7 +40,14 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ANIL/IdeaProjects/Day9_AddressBook&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AccountDetails">
+    <configuration name="AccountDetails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccountDetails" />
+      <module name="Day11_12_practice_problem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StockAccountMngmt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StockAccountMngmt" />
       <module name="Day11_12_practice_problem" />
@@ -47,6 +57,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountDetails" />
+        <item itemvalue="Application.StockAccountMngmt" />
+        <item itemvalue="Application.StockAccountMngmt" />
+        <item itemvalue="Application.StockAccountMngmt" />
         <item itemvalue="Application.StockAccountMngmt" />
       </list>
     </recent_temporary>
@@ -60,6 +74,49 @@
       <option name="presentableId" value="Default" />
       <updated>1670049998502</updated>
     </task>
+    <task id="LOCAL-00001" summary="'master push'">
+      <created>1670086690736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670086690736</updated>
+    </task>
+    <task id="LOCAL-00002" summary="'pb1 commit'">
+      <created>1670090169969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670090169969</updated>
+    </task>
+    <task id="LOCAL-00003" summary="'pb2 commit'">
+      <created>1670093369649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670093369649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="'pb2 small change commit'">
+      <created>1670093956752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670093956752</updated>
+    </task>
+    <task id="LOCAL-00005" summary="'pb4 commit'">
+      <created>1670096803758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670096803759</updated>
+    </task>
+    <task id="LOCAL-00006" summary="'pb5 commit'">
+      <created>1670099489747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670099489747</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,10 +124,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/pb5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'master push'" />
+    <MESSAGE value="'pb1 push'" />
+    <MESSAGE value="'pb1 commit'" />
+    <MESSAGE value="'pb2 commit'" />
+    <MESSAGE value="'pb2 small change commit'" />
+    <MESSAGE value="'pb4 commit'" />
+    <MESSAGE value="'pb5 commit'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'pb5 commit'" />
   </component>
 </project>
